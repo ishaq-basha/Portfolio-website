@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Ishaq Basha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shaik Ishaq Basha</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./MySource/Ishaq_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./MySource/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ishaq-basha-shaik/'"
+          />
+          <img
+            src="./MySource/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ishaq-basha'"
+          />
+        </div>
+      </div>
+    </section><br>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1><br><br>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./MySource/Profile_PIc.png" 
+            alt="Ishaq_Basha's_Profile_picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="">
+              <img
+                src="./MySource/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                <h4> B.Tech </h4>
+               CSE (Computer Science and Engineering) <br>2019 - 2023 <br>
+               BS Abdur Rahman Crescent University, Chennai, Tamil Nadu<br><h4>CGPA: 8.63</h4>
+              </p>
+              <br>
+              <p><h4> 12th-(Intermediate Schooling)</h4> 
+               Science (Mathematics, Physics, Chemistry) <br>2017 - 2019<br>
+                Narayana Junior College, Kadapa, Andhra Pradesh
+                <h4>CGPA: 9.17</h4>
+              </p> 
+            </div>
+          </div>
+          <div class="text-container">
+            <img
+                src="./MySource/experience.png"
+                alt="Experience icon"
+                class="icon"
+              /> 
+            <p>
+              <h3>Internship / Training </h3>
+      
+              Role : Full Stack Development (Intern)<br>JULY 2023 - JAN 2024 <br>
+                <h4>KodNest Technologies</h4> Bengaluru, Karnataka, India.<br>
+
+                >> Developed skills in Java, Python, SQL, Front-End and Back-End Technologies.<br>
+
+                >> Received a certificate on completion of project and Training.<br>
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./MySource/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section><br><br><br>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Technical Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./MySource/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./MySource/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./MySource/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React Js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./MySource/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                src="./MySource/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./MySource/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./MySource/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+                  <article>
+                    <img
+                    src="./MySource/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                      <h3>Java</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./MySource/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./MySource/pr1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project #1</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ishaq-basha/LuxiCars'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ishaq-basha.github.io/LuxiCars/'"
+              >
+                Live Demo
+              </button> 
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./MySource/Pr2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project #2</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ishaq-basha/flipkart_clone'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ishaq-basha.github.io/flipkart_clone/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./MySource/Pr3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project #3</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ishaq-basha/Game_Hungy_Snake'"
+              >
+                Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://ishaq-basha.github.io/Game_Hungy_Snake/'"
+            >
+              Live Demo
+            </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./MySource/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <p class="section__text__p1">To know more about my projects...</p>
+      <h3 class="title">Visit My GitHub Profile </h3><br>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./MySource/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ishaqshaik7842@gmail.com">ishaqshaik7842@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./MySource/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href='https://www.linkedin.com/in/ishaq-basha-shaik'">LinkedIn<br></a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./MySource/PhoneNum.png"
+            alt="Phone Number icon"
+            class="icon contact-icon Phone Number-icon"
+          />
+          <p><a href="tel:+91 6301733068">+91 6301733068</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Shaik Ishaq basha. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
